@@ -13,5 +13,7 @@ export class HomePage {
   }
   goToSecondPage(){
     console.log("second page")
+    this.navCtrl.push(TestPage , {'data':'d', 'data2' : 'd2'})
+
   }
 }

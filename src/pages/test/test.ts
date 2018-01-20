@@ -16,6 +16,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class TestPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+   var recvData = this.navParams.get('data');
+   var recvData2 = this.navParams.get('data2');
+   console.log('data1 is '+ recvData);
+   console.log('data2 is '+recvData2);
+   
   }
 
   ionViewDidLoad() {
